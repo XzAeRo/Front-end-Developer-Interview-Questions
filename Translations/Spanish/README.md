@@ -21,38 +21,47 @@ Este repositorio contiene preguntas de entrevistas a programadores front-end, qu
 
 ####<a name='general'>Preguntas generales:</a>
 
-* ¿Qué sistemas de control de versiones ha usado?
+* ¿Qué aprendiste ayer/esta semana?
+* ¿Qué te emociona o interesa acerca de programar?
+* ¿Cuál ha sido un desafío ténico reciente y como lo resolviste?
+* ¿Qué consideraciones sobre IU, Seguridad, Rendimiento, SEO, Mantenimiento o Tecnologías tomas en cuenta al desarrollar una aplicación web o un sitio?
 * ¿Cuál es su ambiente de desarrollo favorito?
+* ¿Qué sistemas de control de versiones ha usado?
 * ¿Puede describir el proceso que sigue cuando crea una página web?
+* Si tienes 5 hojas de estilos, ¿cómo las integrarías de mejor manera en el sitio?
 * ¿Puede describir la diferencia entre "Progressive Enhancement" y "Graceful Degradation"?
 	* Puntos extra si el entrevistado menciona "detección de capacidades".
 * Explique qué significa "HTML Semántico".
 * ¿Cuál es el navegador que utiliza principalmente para el desarrollo y qué herramientas de desarrollo usa?
-* ¿Cómo optimiza los recursos de una web?
-* ¿Por qué es mejor utilizar varios dominios para distribuir los recursos de una página web?
-	* ¿Cuántos recursos se pueden descargar simultáneamente de un mismo dominio?
+* ¿Cómo optimizarías los recursos de una web?
+* ¿Cuantos recursos puede descargar un navegador al mismo tiempo desde un mismo dominio?
+* ¿Cuántos recursos se pueden descargar simultáneamente de un dominio?
+  * ¿Hay excepciones?
 * Mencione tres formas para disminuir el tiempo de carga de una página (tiempo real o percibido).
 * Si se ha unido a un proyecto y los desarrolladores usan tabs y usted usa espacios, ¿qué hace?
-* Escriba una página con una galería sencilla.
-* ¿Qué herramientas usa para probar el rendimiento de su código?
+* Describa como implementaría una página sencilla de diapositivas.
 * Si pudiera elegir una tecnología para dominar este año, ¿cuál sería?
-* Explique la importancia de estándares y los grupos que los definen.
-* ¿Sabe que es el FOUC? ¿Cómo lo evita?
+* Explique la importancia de los estándares y los organísmos de estandarización.
+* ¿Qué es "Flash of Unstyled Content"? ¿Como previenes FUOC?
+* Explique qué es ARIA y lectores de pantallas, y como hacer un sitio accesible.
+* Explique algunas de las ventajas y desventajas de las animaciones CSS vs. animaciones de Javascript.
+* ¿Qué significa CORS y que problemáticas resuelve?
 
 ####<a name='html'>Preguntas específicas de HTML:</a>
 
-* ¿Qué función cumple el `doctype` y cuántos puede nombrar?
+* ¿Qué función cumple el `doctype`?
 * ¿Cuál es la diferencia entre el modo convencional y el "quirks mode"?
-* ¿Cuáles son las limitaciones al utilizar páginas XHTML?
-	* ¿Hay algún problema al servir las páginas usando: `application/xhtml+xml`?  
+* ¿Cuál es la diferencia entre HTML y XHTML?
+* ¿Hay algún problema al servir las páginas usando: `application/xhtml+xml`?  
 * ¿Cómo programaría una página con contenido en varios lenguajes?
-	* ¿Qué consideraciones se deben tener cuando se diseñan/desarrollan sitios multi-lenguajes?
-* ¿Puede usar sintaxis de XHTML en HTML5?
-* ¿Cómo usa XML en HTML5?
+* ¿Qué consideraciones se deben tener cuando se diseñan/desarrollan sitios multi-lenguajes?
 * ¿Para qué son buenos los atributos `data-`?
-* ¿Cuáles son los modelos de contenido usados en HTML4? ¿Puede compararlos a los de HTML5?
 * Si consideramos HTML5 como una plataforma web abierta, ¿cuáles son las piezas del lego que constituyen HTML5?
 * Describa la diferencia entre cookies, sessionStorage y localStorage.
+* Describa la diferencia entre `<script>`, `<script async>` y `<script defer>`.
+* ¿Por qué generalmente es una buena idea posicionar `<link>`s CSS entre `<head></head>` y los `<script>`s JS justo antes de `</body>`? ¿Conoces alguna excepción?
+* ¿Qué es renderizado progresivo?
+* ¿Has usado lenguajes de plantillas HTML?
 
 ####<a name='css'>Preguntas específicas de CSS:</a>
 
